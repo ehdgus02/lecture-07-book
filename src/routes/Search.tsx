@@ -4,7 +4,7 @@ import styles from "./Search.module.css";
 
 const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 
-type BookType = {
+export type BookType = {
     id: string;
     volumeInfo: {
         title: string;
